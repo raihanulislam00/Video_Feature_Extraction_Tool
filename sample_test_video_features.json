@@ -1,0 +1,42 @@
+{
+  "video_info": {
+    "path": "sample_test_video.mp4",
+    "fps": 30.0,
+    "total_frames": 150,
+    "duration_seconds": 5.0,
+    "resolution": "640x480"
+  },
+  "shot_cuts": {
+    "total_cuts": 0,
+    "cut_timestamps": [],
+    "average_frame_difference": 0.05195125937461853,
+    "max_frame_difference": 2.096611499786377,
+    "threshold_used": 30.0
+  },
+  "motion_analysis": {
+    "average_motion": 0.37409546971321106,
+    "max_motion": 0.48997771739959717,
+    "min_motion": 0.21730171144008636,
+    "std_motion": 0.10413368791341782,
+    "frames_analyzed": 4,
+    "motion_category": "Static/Very Low"
+  },
+  "text_detection": {
+    "text_present_ratio": 1.0,
+    "frames_with_text": 20,
+    "frames_analyzed": 20,
+    "keywords": [
+      "frame"
+    ],
+    "total_text_instances": 20
+  },
+  "object_detection": {
+    "total_people_detected": 0,
+    "total_objects_detected": 0,
+    "person_to_object_ratio": 0,
+    "average_people_per_frame": 0.0,
+    "frames_analyzed": 30,
+    "detection_method": "Haar Cascade",
+    "dominance": "unknown"
+  }
+}

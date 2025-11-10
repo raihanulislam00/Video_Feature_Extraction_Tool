@@ -1,0 +1,17 @@
+# Video Feature Extraction Tool - Requirements
+# Python 3.7+ required
+
+# Core dependencies
+opencv-python>=4.5.0
+numpy>=1.19.0
+
+# Optional: Text detection (OCR)
+pytesseract>=0.3.8
+
+# Jupyter notebook support (optional)
+jupyter>=1.0.0
+matplotlib>=3.3.0
+ipython>=7.0.0
+
+# For data handling
+Pillow>=8.0.0
