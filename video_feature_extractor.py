@@ -13,10 +13,10 @@ def download_video(url, output_path="downloaded_video.mp4"):
     print("URL: %s" % url)
     try:
         urllib.request.urlretrieve(url, output_path)
-        print("✓ Video downloaded: %s" % output_path)
+        print(" Video downloaded: %s" % output_path)
         return output_path
     except Exception as e:
-        print("✗ Error downloading video: %s" % str(e))
+        print(" Error downloading video: %s" % str(e))
         return None
 
 class VideoFeatureExtractor:
@@ -100,7 +100,7 @@ class VideoFeatureExtractor:
             'threshold_used': threshold
         }
         
-        print("✓ Detected %d hard cuts" % len(cuts))
+        print(" Detected %d hard cuts" % len(cuts))
         return result
     
     
